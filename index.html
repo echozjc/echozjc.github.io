@@ -71,6 +71,60 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hexo搭建" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/06/02/hexo%E6%90%AD%E5%BB%BA/" class="article-date">
+  <time class="dt-published" datetime="2021-06-02T09:47:02.232Z" itemprop="datePublished">2021-06-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p>前提有node环境</p>
+</li>
+<li><p>安装cnpm： npm install -g cnpm -registry=<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a> </p>
+</li>
+<li><p>命令行输出：cnpm install -g hexo-cli安装hexo，可以输入hexo-v验证是否安装成功</p>
+<ul>
+<li>如果不成功，重新安装或重装node试试</li>
+</ul>
+</li>
+<li><p>创建一个文件夹保存博客：例如我这里在d盘创建一个blog文件夹</p>
+<ul>
+<li>管理员命令行进入文件夹或者在blog文件夹下右键git bash(要安装git)输入：git init</li>
+<li>如果报错：fatal: unable to access ‘<a target="_blank" rel="noopener" href="https://github.com/.../.git&#39;">https://github.com/.../.git&#39;</a>: Could not resolve host: github.com<ul>
+<li>在命令行输入下面两条命令即可<ul>
+<li>git config –global –unset http.proxy</li>
+<li>git config –global –unset https.proxy</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>初始化完成后，输入hexo s即可启动</p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/06/02/hexo%E6%90%AD%E5%BB%BA/" data-id="ckpfad8ug0000votj5wjtcgzf" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/06/02/hello-world/" class="article-date">
@@ -151,6 +205,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2021/06/02/hexo%E6%90%AD%E5%BB%BA/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2021/06/02/hello-world/">Hello World</a>
